@@ -1,0 +1,440 @@
+body {padding: 0px;
+	margin: 0px;
+	border: 0px;
+	font-family: "PT Sans", sans-serif; 
+	font-weight: 400;
+	}
+
+.border-solid{
+  height: 0px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border-top: 12px solid #2ecc71;
+}
+.main_picture{
+  height: 610px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  float: left;
+  background-image: url(head.png);
+  display: block;   
+  position: absolute;
+  }
+  .main_text {
+  display: block;
+  position: absolute;
+  top: 155px;
+  left: 320px;
+  width: 500px;
+  color: #fff;
+  padding: 0px;
+  }
+ .main_text h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 48px;
+  font-style: oblique;
+ }
+ .main_text span {
+  color: #2ecc71
+ }
+
+ #buttons a.ios{
+  display:block;
+  position: absolute;
+  top: 370px;
+  left: 320px;
+  padding: 0px;
+  height:53px;
+  width:56px;
+  background: url(images.png) no-repeat 0px 0px;
+ }
+ #buttons a.ios:hover{
+  background-position: 0px -77px;
+ }
+  #buttons a.android{
+  display:block;
+  position: absolute;
+  top: 370px;
+  left: 380px;
+  padding: 0px;
+  height:53px;
+  width:56px;
+  background: url(images.png) no-repeat -68px 0px;}
+  
+  #buttons a.android:hover{
+  background-position: -68px -77px;
+ }
+  /*#buttons a.android:active{
+  background-position: -68px 0px;
+ }*/
+ #buttons a.windows{
+  display:block;
+  position: absolute;
+  top: 370px;
+  left: 440px;
+  padding: 0px;
+  height:53px;
+  width:56px;
+  background: url(images.png) no-repeat -135px 0px;}
+ 
+ #buttons a.windows:hover{
+  background-position: -135px -77px;
+ }
+ /*#buttons a.windows:active{
+  background-position: 0px 0px;
+ }*/
+ #description{
+  display:block;
+  bottom: -147px;
+  padding: 0px;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  text-align: center;
+	 }
+#settings {	 
+  display:block;
+  position: absolute;
+  top: 70px;
+  left: 300px;
+  padding: 0px;
+  height:100px;
+  width:100px;
+  background: url(images.png) no-repeat -235px -165px;}
+ #settings h3{
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: -10px;
+  padding: 0px;
+  width: 140px;
+  }
+  #settings p{
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: -120px;
+  padding: 0px;
+  width: 350px;
+  color:#666666;
+  }
+  #design {	 
+  display:block;
+  position: absolute;
+  top: 70px;
+  left: 760px;
+  padding: 0px;
+  height:100px;
+  width:100px;
+  background: url(images.png) no-repeat -665px -165px;}
+ #design h3{
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: -10px;
+  padding: 0px;
+  width: 140px;
+  }
+  #design p{
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: -120px;
+  padding: 0px;
+  width: 350px;
+  color:#666666;
+  }
+   #audience {	 
+  display:block;
+  position: absolute;
+  top: 70px;
+  left: 1220px;
+  padding: 0px;
+  height:100px;
+  width:100px;
+  background: url(images.png) no-repeat -1095px -165px;}
+  #audience h3{
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: -40px;
+  padding: 0px;
+  width: 200px;
+  }
+  #audience p{
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: -120px;
+  padding: 0px;
+  width: 350px;
+  color:#666666;
+  }
+  #media {
+  display:block;
+  bottom: -550px;
+  padding: 0px;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  background-color: #e3e3e3;
+  text-align: center;
+	 }
+  #updates h3{
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  padding: 0px;
+  width: 280px;
+  }
+  #updates p{
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  padding: 0px;
+  width: 490px;
+  color:#666666;
+  text-align:left;
+  }
+  input[type="text"]{
+  display: block;
+  position: absolute;
+  top:220px;
+  left:120px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  background: #ffffff;
+  height: 28px; 
+  width: 320px;
+  color: #cccccc;
+  font-size: 16px;
+  outline: none;
+  padding:10px;
+  margin-top: 2px;
+       }
+  a.button {
+  display: block;
+  position: absolute;
+  top:220px;
+  left:420px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  background: #2ecc71;
+  height: 28px;
+  width: 100px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  padding:10px;
+  margin-top: 2px;
+  outline: none;
+  } 
+a.button:hover { background: rgba(168,207,147,1); }
+.video{
+  height: 350px;
+  width: 550px;
+  top: 25px;
+  left: 850px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  background-image: url(video.png);
+  display: inline-block;   
+  position: absolute;
+   }
+   #social{
+  display:block;
+  bottom: -950px;
+  padding: 0px;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  text-align: center;
+	}
+  #comment{
+	  color:#666666
+  }
+  #comment p{
+	  display:block;
+	  position:absolute;
+	  top:40px;
+	  left: 550px;
+	  height: 50px;
+	  width: 620px;
+  }
+  #faces {
+	 display:block;
+	 position:absolute;
+	 left:180px;
+	 top:125px;
+	 height:50px;
+	 width:1250px;
+	  }
+  /*#faces:hover {
+	  }*/
+  #soc_buttons h3{
+  display: block;
+  position: absolute;
+  left: 700px;
+  top: 200px;
+  padding: 0px;
+  width: 200px;
+  text-align: center;
+    }
+  #soc_buttons p{
+  display: block;
+  position: absolute;
+  left: 550px;
+  top: 250px;
+  padding: 0px;
+  width: 500px;
+  color:#666666;
+  }
+  #soc_buttons a.twitter{
+  display:block;
+  position: absolute;
+  top: 320px;
+  left: 680px;
+  padding: 0px;
+  height:36px;
+  width:36px;
+  background: url(images.png) no-repeat 1px -273px;
+ }
+ #soc_buttons a.twitter:hover{
+  background-position: 1px -326px;
+ }
+ #soc_buttons a.facebook{
+  display:block;
+  position: absolute;
+  top: 320px;
+  left: 720px;
+  padding: 0px;
+  height:36px;
+  width:36px;
+  background: url(images.png) no-repeat -43px -273px; 
+ }
+ #soc_buttons a.facebook:hover{
+  background-position: -43px -326px;
+	 }
+ #soc_buttons a.pinterest{
+  display:block;
+  position: absolute;
+  top: 320px;
+  left: 760px;
+  padding: 0px;
+  height:36px;
+  width:36px;
+  background: url(images.png) no-repeat -87px -273px;
+ }
+ #soc_buttons a.pinterest:hover{
+  background-position: -87px -326px;
+  }
+  #soc_buttons a.google{
+  display:block;
+  position: absolute;
+  top: 320px;
+  left: 800px;
+  padding: 0px;
+  height:36px;
+  width:36px;
+  background: url(images.png) no-repeat -130px -273px;
+ }
+ #soc_buttons a.google:hover{
+  background-position: -130px -326px;
+ }
+  #soc_buttons a.linkedin{
+  display:block;
+  position: absolute;
+  top: 320px;
+  left: 842px;
+  padding: 0px;
+  height:36px;
+  width:36px;
+  background: url(images.png) no-repeat -175px -273px;
+ }
+ #soc_buttons a.linkedin:hover{
+  background-position: -175px -326px;
+ }
+ #soc_buttons a.youtube{
+  display:block;
+  position: absolute;
+  top: 320px;
+  left: 882px;
+  padding: 0px;
+  height:36px;
+  width:36px;
+  background: url(images.png) no-repeat -218px -273px;
+ }
+ #soc_buttons a.youtube:hover{
+  background-position: -218px -326px;
+ }
+ #footer{
+	 bottom: -150px;
+	 padding: 0px;
+	 height: 150px;
+	 width: 100%;
+	 position: absolute;
+	 background-color: #e3e3e3;
+	 text-align: center;
+	 
+ }
+ #footer ul {
+	 padding-top: 55px;
+	 font-size: 14px;
+	 text-decoration: none;
+ }
+ #footer a.contact {
+	 padding: 15px;
+	 color: #666666;
+	 text-decoration: none;
+ }
+ #footer a.contact:hover {
+	  color: #2ecc71;
+ }
+ #footer a.download {
+	 padding: 15px;
+	 color: #666666;
+	 text-decoration: none;
+ }
+ #footer a.download:hover {
+	  color: #2ecc71;
+ }
+ #footer a.press {
+	 padding: 15px;
+	 color: #666666;
+	 text-decoration: none;
+ }
+ #footer a.press:hover {
+	  color: #2ecc71;
+ }
+ #footer a.email {
+	 padding: 15px;
+	 color: #666666;
+	 text-decoration: none;
+ }
+ #footer a.email:hover {
+	  color: #2ecc71;
+ }
+ #footer a.support {
+	 padding: 15px;
+	 color: #666666;
+	 text-decoration: none;
+ }
+ #footer a.support:hover {
+	  color: #2ecc71;
+ }
+ #footer a.policy {
+	 padding: 15px;
+	 color: #666666;
+	 text-decoration: none;
+ }
+ #footer a.policy:hover {
+	  color: #2ecc71;
+ }
